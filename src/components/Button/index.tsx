@@ -2,7 +2,7 @@ import { ButtonType } from "../../types/buttonType"
 
 const Button: React.FC<ButtonType> = ({text, ...rest}) => {
     return (
-        <button {...rest}>
+        <button type="button" {...rest}>
             {text}
         </button>
     )
